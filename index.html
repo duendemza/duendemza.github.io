@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Goblin Ops · Goblin Ads &amp; Web</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #f7f7f5; --fg: #1d1d1b; --muted: #5c5c58; --accent: #2f7d4f; --card: #ffffff; --line: #e2e2dc; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151614; --fg: #ececE8; --muted: #a3a39c; --accent: #5cc58a; --card: #1e1f1c; --line: #2e2f2b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: Montserrat, system-ui, sans-serif; line-height: 1.6; }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 16px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 32px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px; margin-bottom: 16px; }
+  h2 { font-size: 1.1rem; margin: 0 0 8px; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Goblin Ops</h1>
+  <p class="sub">Herramienta interna de Goblin Ads &amp; Web</p>
+
+  <div class="card">
+    <h2>Qué es</h2>
+    <p>Goblin Ops es la herramienta interna que usa la agencia Goblin Ads &amp; Web para revisar a diario el rendimiento
+    de las cuentas de Google Ads y Meta Ads de sus clientes. Lee métricas y configuración de las campañas para
+    detectar problemas y preparar recomendaciones.</p>
+    <p>No es un servicio abierto al público: solo la usan personas de la agencia, con cuentas a las que ya tienen acceso.</p>
+  </div>
+
+  <div class="card">
+    <h2>Acceso a cuentas de Google</h2>
+    <p>Para leer datos de Google Ads, Goblin Ops pide autorización con OAuth de Google. Los permisos se usan solo para
+    consultar las cuentas publicitarias que gestiona la agencia. Podés revocar el acceso en cualquier momento desde
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+    <p>Más detalles en la <a href="privacidad.html">política de privacidad</a>.</p>
+  </div>
+
+  <footer>Contacto: <a href="mailto:jhonatanbasante@gmail.com">jhonatanbasante@gmail.com</a></footer>
+</main>
+</body>
+</html>
